@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+
+body {
+    padding: 60px;
+    background: #e8eaf6;
+
+}
+
+.search-bar {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.search-button {
+    border-radius: 5px;
+    background: rgb(63 81 181);
+    width: 350px;
+}
+
+.search-input {
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.table {
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-button {
+    background: #c5cae9;
+    border-radius: 5px;
+    width: 200px;
+}
+.ant-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
